@@ -42,7 +42,9 @@ img{
     width:250px;
     height:250px;
     margin-bottom:50px;
-    border-radius:50%;
+    border-radius:20%;
+        transition: transform .2s;
+    border:10px solid #ABC123
 }
 .inner{
     display:table-cell;
@@ -85,4 +87,7 @@ p{
 }
 html{
     scroll-behavior:smooth;
+}
+img:hover{
+    transform: scale(1.2)
 }
